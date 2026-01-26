@@ -1,0 +1,52 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: zesty
+spec:
+  version: v2.3.1
+  shortDescription: zesty kubectl plugin
+  description: |
+    zesty kubectl plugin
+  platforms:
+  - selector:
+      matchLabels:
+        os: darwin
+        arch: amd64
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/amd64-darwin-v2.3.1.zip
+    sha256: 852daa63b87413e32c03871d6ec961a8701e3f8b191647427fbd7e8cf97a2039
+    bin: ./kubectl-zesty
+  - selector:
+      matchLabels:
+        os: darwin
+        arch: arm64
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/arm64-darwin-v2.3.1.zip
+    sha256: 1e3b334d04c58153b72e2134c8301110ad66a27246a6bbd89a6db7f1798a5bd6
+    bin: ./kubectl-zesty
+  - selector:
+      matchLabels:
+        os: linux
+        arch: amd64
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/amd64-linux-v2.3.1.zip
+    sha256: 325dc43e72f945f06edbf793c88cd33109271cd6e706096bacac08d7ee3ed8dc
+    bin: ./kubectl-zesty
+  - selector:
+      matchLabels:
+        os: linux
+        arch: arm64
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/arm64-linux-v2.3.1.zip
+    sha256: f2929e3a2010773bec698ec42dfe7289ff9f002b156bb2982ceeb5d736b6d2b4
+    bin: ./kubectl-zesty
+  - selector:
+      matchLabels:
+        os: windows
+        arch: amd64
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/amd64-windows-v2.3.1.zip
+    sha256: d9b32f03c60383663972dd67390749d5dc68f0dceb91ee421bb27154875c7251
+    bin: ./kubectl-zesty.exe
+  - selector:
+      matchLabels:
+        os: windows
+        arch: arm64
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/arm64-windows-v2.3.1.zip
+    sha256: d8942704a48d883d7f0fde14716a004c1758c032b425a9cb311218452009215e
+    bin: ./kubectl-zesty.exe
