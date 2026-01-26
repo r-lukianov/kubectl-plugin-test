@@ -19,40 +19,40 @@ spec:
         os: darwin
         arch: amd64
     uri: https://gitlab.com/zestyco/kompass/kompass-agent/-/releases/v0.1.0/downloads/kubectl-kompass_darwin_amd64.zip
-    sha256: 3f8312ecdae38bdeab91ee9e28be5cf1275028539d3315abb181931ab2b12e5c
+    sha256: d56d933cfd929e0f7b1e285402954c20ed1c2f1dbf6537b7962056e903b3c722
     bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: darwin
         arch: arm64
     uri: https://gitlab.com/zestyco/kompass/kompass-agent/-/releases/v0.1.0/downloads/kubectl-kompass_darwin_arm64.zip
-    sha256: d9bd912759aefcaafa10db475684386e342633f9145aaa55a9ff486586dabf19
+    sha256: 2f26c04841cec527aac498d03d0746ca05ce1a29d45b432e761ff919b5bd1bc6
     bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: linux
         arch: amd64
     uri: https://gitlab.com/zestyco/kompass/kompass-agent/-/releases/v0.1.0/downloads/kubectl-kompass_linux_amd64.zip
-    sha256: 2d07ed556c6f2bf32d28e3a03988d41d23e8ba23967351d62cbfc43194d36cc5
+    sha256: 5b6921309539fcbca6110bf3219753948d300076f11dc1059adbe1eaa0d7e529
     bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: linux
         arch: arm64
     uri: https://gitlab.com/zestyco/kompass/kompass-agent/-/releases/v0.1.0/downloads/kubectl-kompass_linux_arm64.zip
-    sha256: f769ce45f123c4ee53538739048b1eb6f6bd3881d7aca27077b91a8c2f06fe95
+    sha256: c322f01a45ebd64b57ca58eb4e03257dc39dc30c03ea74e43b8120991ccfab7e
     bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: windows
         arch: amd64
     uri: https://gitlab.com/zestyco/kompass/kompass-agent/-/releases/v0.1.0/downloads/kubectl-kompass_windows_amd64.zip
-    sha256: 9f52e5f015f12eb19ce55bd31e159b7154212ded28afe82f09d67f63c0b7e04a
+    sha256: beec0a44cee60cc075200ef8fc233b629fcfb8477a2e293a245cb55d61083b2e
     bin: ./kubectl-kompass.exe
   - selector:
       matchLabels:
         os: windows
         arch: arm64
     uri: https://gitlab.com/zestyco/kompass/kompass-agent/-/releases/v0.1.0/downloads/kubectl-kompass_windows_arm64.zip
-    sha256: 9a468b598bccfead2b3685e147f94f3a3fee48270e60909390f10107bc1e2449
+    sha256: 29d86dfee12d6c4aa43ae8a40a5d3f8e32f92bb568432e558171fabfe59e60b6
     bin: ./kubectl-kompass.exe
