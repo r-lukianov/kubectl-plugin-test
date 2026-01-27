@@ -18,41 +18,41 @@ spec:
       matchLabels:
         os: darwin
         arch: amd64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/3.0.0/kubectl-kompass_darwin_amd64.zip
-    sha256: d439dce9fce69c650b280a058bd76748af164731c83ef840db31ced649ceb824
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/4.0.0/kubectl-kompass_darwin_amd64.zip
+    sha256: 855cafbab17a9f287637b8a6b7b3eb7f8b8d782d78aa92aa23366928c512c30c
     bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: darwin
         arch: arm64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/3.0.0/kubectl-kompass_darwin_arm64.zip
-    sha256: b7e3720e6ece568f6a1b476b6b0b9b696b1087811e94c1ec0b13ca4b82a53d26
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/4.0.0/kubectl-kompass_darwin_arm64.zip
+    sha256: 71ad8f9371dba41038040a38e611594be94b6b387aa06cb235fa31910ef9819d
     bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: linux
         arch: amd64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/3.0.0/kubectl-kompass_linux_amd64.zip
-    sha256: 8795a2ff6ed63dfdf40c64cfcecad4f5cf5ae7c2e8fdd9ae6bf65452aaf60719
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/4.0.0/kubectl-kompass_linux_amd64.zip
+    sha256: 9a1cf9b1e34f4dd1717fe735b7e4e9f9d5f1f6425498137f66c1327a4796d1c5
     bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: linux
         arch: arm64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/3.0.0/kubectl-kompass_linux_arm64.zip
-    sha256: 8f4345bb1c12c5f96363c6782b45829aefe07bbf615da1387f83ff6ed1078817
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/4.0.0/kubectl-kompass_linux_arm64.zip
+    sha256: 64142873c71748659620651308864572bee8deaf7fa62db72268f844997ddfc8
     bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: windows
         arch: amd64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/3.0.0/kubectl-kompass_windows_amd64.zip
-    sha256: d2a49024c7e5be4faea6c6d990c66b7893753f19f5b6b5dc15d2f2c63d9a6618
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/4.0.0/kubectl-kompass_windows_amd64.zip
+    sha256: 5d62ea9c8ae937ad3e239711ec0349425253524ad58d1cb0c47c390b8a9aa52b
     bin: ./kubectl-kompass.exe
   - selector:
       matchLabels:
         os: windows
         arch: arm64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/3.0.0/kubectl-kompass_windows_arm64.zip
-    sha256: 52725bda21e0bbb4030dfc3a9d57cbbe2ed15a2006cc3df304814b5016949cfb
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/4.0.0/kubectl-kompass_windows_arm64.zip
+    sha256: a345be0eb1cbef57278234aa6ef7350d7d2f62cea83b3d3ba3ea0595123eec2c
     bin: ./kubectl-kompass.exe
