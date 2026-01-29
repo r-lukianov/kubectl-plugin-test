@@ -1,7 +1,7 @@
 apiVersion: krew.googlecontainertools.github.com/v1alpha2
 kind: Plugin
 metadata:
-  name: zesty pod-placement
+  name: zesty-pod-placement
 spec:
   version: "v0.1.0"
   homepage: https://gitlab.com/zestyco/kompass/kompass-agent
