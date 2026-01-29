@@ -20,40 +20,40 @@ spec:
         os: darwin
         arch: amd64
     uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/7.0.0/kubectl-kompass-pod-placement_darwin_amd64.zip
-    sha256: 98d13db1e6903906df893772038dccfb5e3903ab949b79f872134cfaeab0a153
+    sha256: 0f6a409008d066b7925f1821238abd3d5e4da85fe088266f797d5fe5e60f60b7
     bin: ./kubectl-kompass-pod-placement
   - selector:
       matchLabels:
         os: darwin
         arch: arm64
     uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/7.0.0/kubectl-kompass-pod-placement_darwin_arm64.zip
-    sha256: 65420b9dd2aa492c79d2de2a6a8904ebb6ca204ce1306157c384f686f0352944
+    sha256: e2078b47b1ba143daae1dacd0372bd39b79e2eeb198bc502ba4817c972149c43
     bin: ./kubectl-kompass-pod-placement
   - selector:
       matchLabels:
         os: linux
         arch: amd64
     uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/7.0.0/kubectl-kompass-pod-placement_linux_amd64.zip
-    sha256: bca380fca802d889834e16fec1d6345cdc866984eee721363dd8f515a95ce9af
+    sha256: 68ea0c02c8eb1b2abac7876c62a3117a6a4e7cda25ec999c22042fe233830471
     bin: ./kubectl-kompass-pod-placement
   - selector:
       matchLabels:
         os: linux
         arch: arm64
     uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/7.0.0/kubectl-kompass-pod-placement_linux_arm64.zip
-    sha256: fa3a170e121b7de77cd91490ade6c21ce5accf595a3cd52984db751d4cf3630d
+    sha256: def6d574ab61164620903e83383c007a0fa5baccf6d8f0ed3fc370966684f75c
     bin: ./kubectl-kompass-pod-placement
   - selector:
       matchLabels:
         os: windows
         arch: amd64
     uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/7.0.0/kubectl-kompass-pod-placement_windows_amd64.zip
-    sha256: aac2f245384a5ac605054ca9aae7b4037aa9c95a41ad3233138aa58d3657b4c0
+    sha256: cffc374da580224cee88f1f017cada990929e50b7daca3987adceb611f2125bf
     bin: ./kubectl-kompass-pod-placement.exe
   - selector:
       matchLabels:
         os: windows
         arch: arm64
     uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/7.0.0/kubectl-kompass-pod-placement_windows_arm64.zip
-    sha256: 29f868632ede4f400de3cfa5318da75c1140e7a5a55edb96505e6b251307e17a
+    sha256: eddcda2e650e38460eb46d6892241533687bf5ec2e79b0d56817a7b98cf6bd17
     bin: ./kubectl-kompass-pod-placement.exe
