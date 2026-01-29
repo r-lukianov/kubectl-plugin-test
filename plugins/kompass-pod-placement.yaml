@@ -1,7 +1,7 @@
 apiVersion: krew.googlecontainertools.github.com/v1alpha2
 kind: Plugin
 metadata:
-  name: kompass-pod-placement
+  name: kompass
 spec:
   version: "v0.1.0"
   homepage: https://gitlab.com/zestyco/kompass/kompass-agent
@@ -19,41 +19,41 @@ spec:
       matchLabels:
         os: darwin
         arch: amd64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/8.0.0/kubectl-kompass-pod-placement_darwin_amd64.zip
-    sha256: 3b29da65d54cf730f7330390d9072ff27aca75e5a9a8274100cdfe03fad81a28
-    bin: ./kubectl-kompass-pod-placement
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/9.0.0/kubectl-kompass_darwin_amd64.zip
+    sha256: cbbf4710d82a39e929b515a3d06772af73023332b8002e8e828c18d9d54c3477
+    bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: darwin
         arch: arm64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/8.0.0/kubectl-kompass-pod-placement_darwin_arm64.zip
-    sha256: 66b15567450dc11dcf600d2bfae13cb4aca910bd847aca6fce7101c93b9469f9
-    bin: ./kubectl-kompass-pod-placement
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/9.0.0/kubectl-kompass_darwin_arm64.zip
+    sha256: b0dd7ca55b90effa64243f157517eafd59b9afd9d4e742f76b1abc29a1605edd
+    bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: linux
         arch: amd64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/8.0.0/kubectl-kompass-pod-placement_linux_amd64.zip
-    sha256: 81f6383774d6fce792eb75a5a89a07c2990ff70bb0e52ee73ebc99035381c35f
-    bin: ./kubectl-kompass-pod-placement
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/9.0.0/kubectl-kompass_linux_amd64.zip
+    sha256: 96a7e68b710944e51506f6bc863a937c401aa69e17314a98484bfe0e927ff0ed
+    bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: linux
         arch: arm64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/8.0.0/kubectl-kompass-pod-placement_linux_arm64.zip
-    sha256: bcb28805c634621598ebd9528f9f8e857f67e769c719c8468340f396bd3fbfc6
-    bin: ./kubectl-kompass-pod-placement
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/9.0.0/kubectl-kompass_linux_arm64.zip
+    sha256: 874a3967dea382c6e35746cd9c75242b9bb804e21e1fed8ee881da8523f1515d
+    bin: ./kubectl-kompass
   - selector:
       matchLabels:
         os: windows
         arch: amd64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/8.0.0/kubectl-kompass-pod-placement_windows_amd64.zip
-    sha256: fb77e089135a0088a0c5c5b1b0d894600edf3e1f6eb76551e65bc66cdd84b6d8
-    bin: ./kubectl-kompass-pod-placement.exe
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/9.0.0/kubectl-kompass_windows_amd64.zip
+    sha256: 63c2222b2822c3c23443401e2dfadc6ca38612bed8ec9abb620dacc79b1b5711
+    bin: ./kubectl-kompass.exe
   - selector:
       matchLabels:
         os: windows
         arch: arm64
-    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/8.0.0/kubectl-kompass-pod-placement_windows_arm64.zip
-    sha256: 00274334aa4104995d614b63fa276a205e7176dd27e8e4c1c02b37451c8f52ad
-    bin: ./kubectl-kompass-pod-placement.exe
+    uri: https://github.com/r-lukianov/kubectl-plugin-test/releases/download/9.0.0/kubectl-kompass_windows_arm64.zip
+    sha256: d79573b79f98b04f7e4c4e2f4d44018c1cbd0dd3cef837350eccfbdc3189184e
+    bin: ./kubectl-kompass.exe
